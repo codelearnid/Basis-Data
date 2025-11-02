@@ -67,7 +67,7 @@ Miniconda mempermudah setup Jupyter untuk eksplorasi data interaktif.
 
 ---
 
-## 🌍 3. **Kombinasi Ideal: Miniconda + Python**
+## 3. **Kombinasi Ideal: Miniconda + Python**
 
 Keduanya saling melengkapi:
 
@@ -81,9 +81,9 @@ Keduanya saling melengkapi:
 
 ---
 
-# 🎓 **Materi: Visualisasi Data Interaktif Menggunakan Streamlit**
+# **Materi: Visualisasi Data Interaktif Menggunakan Streamlit**
 
-## 📘 **1. Pendahuluan**
+## **1. Pendahuluan**
 
 ### Apa itu Streamlit?
 
@@ -100,7 +100,7 @@ Streamlit sangat populer di bidang:
 
 ---
 
-## ⚙️ **2. Instalasi dan Persiapan Lingkungan**
+## **2. Instalasi dan Persiapan Lingkungan**
 
 ### a. Buat environment baru (disarankan menggunakan Miniconda)
 
@@ -125,7 +125,7 @@ Perintah ini akan membuka **demo resmi Streamlit** di browser.
 
 ---
 
-## 🧱 **3. Struktur Dasar Program Streamlit**
+## **3. Struktur Dasar Program Streamlit**
 
 Struktur file Streamlit biasanya sangat sederhana, misalnya:
 
@@ -153,7 +153,7 @@ Browser akan terbuka otomatis di `http://localhost:8501`.
 
 ---
 
-## 📊 **4. Membuat Visualisasi Data Dasar**
+## **4. Membuat Visualisasi Data Dasar**
 
 ### Contoh DataFrame
 
@@ -196,7 +196,7 @@ st.pyplot(fig)
 
 ---
 
-## 🧩 **5. Menambahkan Interaktivitas**
+## **5. Menambahkan Interaktivitas**
 
 ### a. Dropdown (selectbox)
 
@@ -220,7 +220,7 @@ st.dataframe(data[data["Total Donasi (juta)"] >= nilai])
 
 ---
 
-## 🌍 **6. Visualisasi Geospasial dengan Streamlit**
+## **6. Visualisasi Geospasial dengan Streamlit**
 
 Jika Bapak ingin menampilkan peta sebaran mangrove:
 
@@ -242,7 +242,7 @@ st.map(data_peta)
 
 ---
 
-## 🧠 **7. Membuat Dashboard Sederhana**
+## **7. Membuat Dashboard Sederhana**
 
 Contoh dashboard lengkap:
 
@@ -278,7 +278,7 @@ st.pyplot(fig)
 
 ---
 
-## 🖼️ **8. Menambahkan Gambar dan Teks Deskriptif**
+## **8. Menambahkan Gambar dan Teks Deskriptif**
 
 ```python
 st.image("mangrove.jpg", caption="Kegiatan Penanaman Mangrove di Balikpapan")
@@ -290,7 +290,7 @@ Meningkatkan kesadaran masyarakat terhadap pentingnya ekosistem mangrove.
 
 ---
 
-## 🧱 **9. Deploy Aplikasi ke Cloud (Opsional)**
+## **9. Deploy Aplikasi ke Cloud (Opsional)**
 
 Streamlit menyediakan platform gratis:
 👉 [https://share.streamlit.io](https://share.streamlit.io)
@@ -305,7 +305,7 @@ Langkah singkat:
 
 ---
 
-## 📚 **10. Kesimpulan**
+## **10. Kesimpulan**
 
 | Keunggulan    | Keterangan                                          |
 | ------------- | --------------------------------------------------- |
@@ -324,9 +324,9 @@ Materi ini sudah disusun agar bisa langsung dijadikan **bahan ajar di kelas atau
 
 ---
 
-# 🐍 **Materi Dasar Pemrograman Python (Basic Python)**
+# **Materi Dasar Pemrograman Python (Basic Python)**
 
-## 🎯 **Tujuan Pembelajaran**
+## **Tujuan Pembelajaran**
 
 Setelah mempelajari materi ini, mahasiswa diharapkan mampu:
 
@@ -339,7 +339,7 @@ Setelah mempelajari materi ini, mahasiswa diharapkan mampu:
 
 ---
 
-## 📘 **1. Pengenalan Python**
+## **1. Pengenalan Python**
 
 ### Apa itu Python?
 
@@ -377,7 +377,7 @@ Ada beberapa cara:
 
 ---
 
-## 🔤 **2. Variabel dan Tipe Data**
+## **2. Variabel dan Tipe Data**
 
 ### Variabel
 
@@ -402,8 +402,7 @@ print(nama, umur, tinggi, aktif)
 | `bool`    | `True`, `False` | Logika benar/salah |
 
 ---
-
-## ➕ **3. Operator Dasar**
+## **3. Operator Dasar**
 
 ### Operator Aritmatika
 
@@ -438,7 +437,7 @@ print(not x)
 
 ---
 
-## 🔁 **4. Struktur Kontrol**
+## **4. Struktur Kontrol**
 
 ### a. **Percabangan (if, elif, else)**
 
@@ -471,7 +470,7 @@ while count < 3:
 
 ---
 
-## 📦 **5. Struktur Data (List, Tuple, Dictionary)**
+## **5. Struktur Data (List, Tuple, Dictionary)**
 
 ### a. **List (daftar data)**
 
@@ -500,7 +499,7 @@ print(donatur)
 
 ---
 
-## 🧮 **6. Fungsi (Function)**
+## **6. Fungsi (Function)**
 
 ### a. Fungsi Dasar
 
@@ -523,7 +522,7 @@ print("Luas:", hasil)
 
 ---
 
-## 📥 **7. Input dan Output**
+## **7. Input dan Output**
 
 ### Input dari pengguna
 
@@ -541,7 +540,7 @@ print(f"Nama saya {nama}, umur {umur} tahun.")
 
 ---
 
-## 📂 **8. Membaca dan Menulis File**
+## **8. Membaca dan Menulis File**
 
 ### Menulis file
 
