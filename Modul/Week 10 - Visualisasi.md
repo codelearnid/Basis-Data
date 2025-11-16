@@ -318,12 +318,6 @@ Langkah singkat:
 ---
 
 
-Siap Pak Arif 🌱
-Berikut saya buatkan **materi pembelajaran “Basic Python”** — lengkap, sistematis, dan cocok digunakan untuk **pengantar kuliah Pemrograman Dasar / Visualisasi Data / Data Science**.
-Materi ini sudah disusun agar bisa langsung dijadikan **bahan ajar di kelas atau modul mandiri mahasiswa** 👇
-
----
-
 # **Materi Dasar Pemrograman Python (Basic Python)**
 
 ## **Tujuan Pembelajaran**
@@ -600,6 +594,216 @@ Total Donasi: 1550000
 | Operator             | Melakukan operasi logika dan matematika |
 | Percabangan          | Mengambil keputusan berdasarkan kondisi |
 | Perulangan           | Melakukan tindakan berulang             |
+| Fungsi               | Membuat kode lebih rapi dan reusable    |
+| Struktur Data        | Mengelola data secara efisien           |
+
+---
+
+Berikut versi parafrase dari materi yang Bapak berikan, disusun lebih ringkas, jelas, dan tetap lengkap untuk **pengantar Python / proyek akhir administrasi basis data**:
+
+---
+
+# **3. Operator Dasar Python**
+
+### **Operator Aritmatika**
+
+Digunakan untuk operasi matematika dasar:
+
+```python
+a, b = 10, 3
+print(a + b)  # Penjumlahan
+print(a - b)  # Pengurangan
+print(a * b)  # Perkalian
+print(a / b)  # Pembagian (hasil float)
+print(a // b) # Pembagian bulat
+print(a % b)  # Sisa bagi
+print(a ** b) # Pangkat
+```
+
+### **Operator Perbandingan**
+
+Membandingkan nilai:
+
+```python
+print(a == b)  # Sama dengan
+print(a != b)  # Tidak sama dengan
+print(a > b)   # Lebih besar
+print(a < b)   # Lebih kecil
+```
+
+### **Operator Logika**
+
+Untuk operasi logika True/False:
+
+```python
+x, y = True, False
+print(x and y)  # AND
+print(x or y)   # OR
+print(not x)    # NOT
+```
+
+---
+
+# **4. Struktur Kontrol**
+
+### **a. Percabangan (if, elif, else)**
+
+```python
+nilai = 85
+
+if nilai >= 90:
+    print("A")
+elif nilai >= 75:
+    print("B")
+else:
+    print("C")
+```
+
+### **b. Perulangan (for)**
+
+```python
+for i in range(5):
+    print("Perulangan ke-", i)
+```
+
+### **c. Perulangan (while)**
+
+```python
+count = 0
+while count < 3:
+    print("Iterasi", count)
+    count += 1
+```
+
+---
+
+# **5. Struktur Data**
+
+### **a. List (daftar yang bisa diubah)**
+
+```python
+buah = ["mangga", "apel", "pisang"]
+print(buah[0])        # Akses elemen
+buah.append("jeruk")  # Menambahkan elemen
+print(buah)
+```
+
+### **b. Tuple (data tetap / immutable)**
+
+```python
+warna = ("merah", "hijau", "biru")
+print(warna[1])
+```
+
+### **c. Dictionary (pasangan kunci-nilai)**
+
+```python
+donatur = {"nama": "Andi", "jumlah": 500000, "kota": "Balikpapan"}
+print(donatur["nama"])
+donatur["status"] = "aktif"
+print(donatur)
+```
+
+---
+
+# **6. Fungsi (Function)**
+
+### **a. Fungsi sederhana**
+
+```python
+def sapa(nama):
+    print(f"Halo {nama}, selamat datang!")
+
+sapa("Arif")
+```
+
+### **b. Fungsi dengan nilai kembali (return)**
+
+```python
+def luas_persegi(sisi):
+    return sisi * sisi
+
+hasil = luas_persegi(4)
+print("Luas:", hasil)
+```
+
+---
+
+# **7. Input dan Output**
+
+### **Input pengguna**
+
+```python
+nama = input("Masukkan nama: ")
+print("Halo,", nama)
+```
+
+### **Format output dengan f-string**
+
+```python
+umur = 25
+print(f"Nama saya {nama}, umur {umur} tahun.")
+```
+
+---
+
+# **8. Membaca dan Menulis File**
+
+### **Menulis ke file**
+
+```python
+with open("data.txt", "w") as f:
+    f.write("Data donasi mangrove\n")
+```
+
+### **Membaca file**
+
+```python
+with open("data.txt", "r") as f:
+    print(f.read())
+```
+
+---
+
+# **9. Contoh Kasus Mini: Total Donasi**
+
+```python
+donasi = [
+    {"nama": "Andi", "jumlah": 500000},
+    {"nama": "Siti", "jumlah": 750000},
+    {"nama": "Budi", "jumlah": 300000}
+]
+
+total = sum(d["jumlah"] for d in donasi)
+print("Total Donasi:", total)
+```
+
+**Output:**
+
+```
+Total Donasi: 1550000
+```
+
+---
+
+# **10. Latihan Praktik Mahasiswa**
+
+1. Buat program menghitung **luas dan keliling persegi panjang** dari input pengguna.
+2. Tampilkan **angka ganjil dari 1–100** menggunakan perulangan.
+3. Buat daftar `donasi = [100000, 250000, 150000]` dan hitung total serta rata-rata.
+4. Buat fungsi untuk mengecek apakah suatu angka adalah **bilangan prima**.
+5. Simpan semua latihan dalam file `.py` dan jalankan melalui terminal.
+
+---
+
+# **11. Kesimpulan**
+
+| Konsep               | Keterangan                              |
+| -------------------- | --------------------------------------- |jual
+| Variabel & Tipe Data | Menyimpan nilai dan informasi           |
+| Operator             | Melakukan operasi matematika dan logika |
+| Percabangan          | Mengambil keputusan berdasarkan kondisi |
+| Perulangan           | Menjalankan kode berulang               |
 | Fungsi               | Membuat kode lebih rapi dan reusable    |
 | Struktur Data        | Mengelola data secara efisien           |
 
